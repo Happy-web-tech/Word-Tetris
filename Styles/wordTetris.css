@@ -12,9 +12,10 @@ body{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	background: url(../Images/tetris.jpg);
+	background: url(../Images/tetris1.png);
+	/* background-color: #1A4D2E; */
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	background-position: center;
 }
 
@@ -103,6 +104,7 @@ body{
 	width: 35vw;
 	height: 80vh;
 	background-color: #4683A4;
+	border-radius: 10%;
 		
 }
 
@@ -115,7 +117,11 @@ body{
 	color: black;
 	text-align: left;
 	line-height: 40px;
-	padding-top: 20px
+	padding-top: 20px;
+}
+.goodLuck{
+	text-align: center;
+	/* color: #D1BB9E; */
 }
 
 .gameOver{
@@ -124,7 +130,7 @@ body{
 	left: 34vw;
 	width: 35vw;
 	height: 80vh;
-	font-size: 42px;
+	font-size: 40px;
 	color: red;
 	text-align: center;
 	padding-top: 20px;
@@ -132,7 +138,7 @@ body{
 }
 
 .gameOver > p{
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 
@@ -142,9 +148,9 @@ body{
 	left: 35px;
 	width: 410px;
 	height: 340px;
-	border-left: 15px solid #632B30;
-	border-bottom: 15px solid #632B30;
-	border-right: 15px solid #632B30;
+	border-left: 15px solid #FCFFE0;
+	border-bottom: 15px solid #FCFFE0;
+	border-right: 15px solid #FCFFE0;
 	border-radius: 0 0 20px 20px;
 }
 
